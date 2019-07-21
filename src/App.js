@@ -5,13 +5,14 @@ import '../node_modules/antd/dist/antd.less';
 import './App.less';
 
 import Login from './login/index.component';
-import mock from '../axiosMock/index';
+import '../config/axios.config';
+// import mock from '../axiosMock/index';
 
 class App extends React.Component {
   render(){
     return (
       <div >
-        <h1 className="App">登录</h1>
+        
         <Login/>
       </div>
     )

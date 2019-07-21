@@ -3,7 +3,7 @@ import axios from 'axios';
 
 class State {
   @observable params = {
-    account: '',
+    username: '',
     password: ''
   }
 
@@ -13,7 +13,7 @@ class State {
 
   @action onLogin = ()=> {
     console.log(toJS(this.params));
-    axios.get('/users').then(res => console.log(res.data))
+    axios.get('/login').then(res => console.log(res.data))
   }
 }
 

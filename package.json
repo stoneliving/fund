@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack-dev-server --config ./webpack.dev.config.js",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "mock-server": "node ./config/mock-server.js"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,8 @@
     "less": "^3.9.0",
     "less-loader": "^5.0.0",
     "mini-css-extract-plugin": "^0.7.0",
+    "mockserver-client": "^5.6.0",
+    "mockserver-node": "^5.6.0",
     "postcss-loader": "^3.0.0",
     "react-hot-loader": "^4.12.6",
     "style-loader": "^0.23.1",
