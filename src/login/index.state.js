@@ -13,7 +13,7 @@ class State {
 
   @action onLogin = ()=> {
     console.log(toJS(this.params));
-    axios.get('/users').then(res => console.log(res.data))
+    axios.get('/login').then(res => console.log(res))
   }
 }
 
