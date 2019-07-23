@@ -1,6 +1,8 @@
-import {observable, action} from 'mobx';
-
- class State {
+import {
+  observable,
+  action
+} from 'mobx';
+class State {
   @observable visible = false;
 
   @action showLoading = () => {
@@ -13,4 +15,3 @@ import {observable, action} from 'mobx';
 }
 
 export default new State();
-
