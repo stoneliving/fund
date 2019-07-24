@@ -22,3 +22,8 @@ axios.defaults.baseURL = '/fund';
 //     loadingState.hideLoading();
 //   }
 // )
+
+// axios.defaults.proxy = {
+//   host: 'localhost',
+//   port: 8080,
+// }

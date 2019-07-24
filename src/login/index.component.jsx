@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {Input, Button, Form} from 'antd';
 import State from './index.state';
 import {observer} from 'mobx-react';
-
+import './index.less';
 @observer
 class Login extends Component {
   render() {

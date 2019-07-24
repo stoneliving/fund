@@ -3,7 +3,7 @@ import axios from 'axios';
 
 class State {
   @observable params = {
-    account: '',
+    username: '',
     password: ''
   }
 
