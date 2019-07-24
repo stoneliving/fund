@@ -9,3 +9,5 @@ React official website recommend tutorial:  [Creating a React App...From Scratch
 
 ## 2.Babel
 
+## common problems
+[解决 webpack-dev-server 不能使用 IP 访问](https://segmentfault.com/a/1190000014301657)
